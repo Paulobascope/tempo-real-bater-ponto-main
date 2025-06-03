@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/tempo-real-bater-ponto-main/", // <- Adicione isso aqui
   server: {
     host: "::",
     port: 8080,
